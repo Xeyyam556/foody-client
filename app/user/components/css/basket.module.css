@@ -1,0 +1,240 @@
+.basketSection{
+display: flex;
+gap: 20px;
+    width: 97%;
+    height: 1000px;
+    margin: 0 auto;
+    margin-top: 20px !important;
+}
+.basketNavDiv{
+    width: 30%;
+    height: 515px;
+    background-color: rgb(243, 244, 246);
+    display: flex;
+    flex-direction: column;
+}
+.basketNavDiv nav ul li {
+    display: flex;
+    flex-direction: column;
+    margin-top:45px ;
+    gap: 40px;
+
+}
+.mainLink{
+    cursor: pointer;
+    background-color: rgb(246, 146, 137);
+    width: 70%;
+    border: 1px solid rgb(246, 146, 137) ;
+    height: 56px;
+    margin:0 auto;
+    margin-left: 15%;
+    text-align: start;
+    border-radius: 5px;
+}
+.mainBtn{
+    font-size: 20px;
+    color: rgb(214, 54, 38);
+    font-weight: 600;
+    border: 1px solid rgb(246, 146, 137) ;
+    background-color: rgb(246, 146, 137);
+    margin-top: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+
+
+}
+.image{
+    margin-left: 10px;
+}
+.otherLink{
+    cursor: pointer;
+    width: 70%;
+    height: 56px;
+    margin:0 auto;
+    margin-left: 15%;
+    text-align: start;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(130, 130, 130);
+}
+.otherBtn{
+    font-size: 20px;
+    color: rgb(130, 130, 130);
+    border: 1px solid rgb(243, 244, 246);
+    font-weight: 600;
+    margin-top: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+.logoutBtn{
+    cursor: pointer;
+    width: 70%;
+    margin: 0 auto;
+    height: 56px;
+    font-size: 20px;
+    color: rgb(130, 130, 130);
+    background-color: rgb(243, 244, 246);
+    border: 1px solid rgb(243, 244, 246);
+    font-weight: 600;
+    margin-top: 15px;
+    padding-left: 10px;
+    margin-left: 15%;
+    text-align: start;
+    border-radius: 5px;
+}
+
+.basketDiv{
+    width: 69%;
+    height: 735px;
+    background-color: rgb(243, 244, 246);
+}
+.basketDiv h1{
+    color: rgb(79, 79, 79);
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 41px;
+    margin-left: 37px;
+
+}
+.basketItems{
+    display: flex;
+    gap: 10px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(193, 188, 188);
+    width: 90%;
+    height:50px ;
+}
+.basketItems p{
+    color: rgb(214, 54, 38);
+    margin-top:7px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.increaseDiv{
+    background-color: #FFF;
+    border-radius: 20px;
+    width: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.increaseDiv button{
+    border: none;
+    font-size: 20px;
+    background-color: #FFF;
+    cursor: pointer;
+}
+.increaseDiv p{
+    font-size: 20px;
+}
+.productDiv{
+    width: 90%;
+    height: 110px;
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    overflow-y: auto;
+    border-bottom: 1px solid rgb(193, 188, 188);
+}
+.delete{
+    cursor: pointer;
+}
+.aboutProduct{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.aboutProduct h2{
+    font-size: 22px;
+    color: rgb(79, 79, 79);
+    font-weight: 500;
+}
+.aboutProduct p{
+    width: 30px;
+    font-size: 18px;
+    color: rgb(79, 79, 79);
+    font-weight: 500;
+}
+.countainerDiv{
+    max-height: 500px;
+    overflow-y: auto;
+}
+.countainerDiv::-webkit-scrollbar {
+    width: 2px; /* Scroll bar genişliği */
+    height: 1px;
+  }
+  .countainerDiv::-webkit-scrollbar-track {
+    background: white; /* Scroll bar arka plan rengi */
+  }
+  
+  .countainerDiv::-webkit-scrollbar-thumb {
+    background-color: red; /* Scroll bar rengi */
+    border-radius: 4px; /* Scroll barın kenarları yuvarlatmak için */
+  }
+  
+  .countainerDiv::-webkit-scrollbar-thumb:hover {
+    background:red; /* Hover durumunda scroll bar rengi */
+  }
+  
+  .checkout {
+    width: 90%;
+    cursor: pointer;
+    height: 50px;
+    background-color: rgb(214, 54, 38);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    padding: 0 20px; 
+    text-decoration: none;
+    border-radius: 25px; 
+    margin-top: 50px !important;
+}
+
+.checkout h1 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin: 0;
+}
+.spin{ padding: 50px;
+    margin: 0 auto;
+    margin-left: 30% !important;}
+
+.checkout p {
+    font-size: 20px;
+    width: 135px;
+    height: 47px;
+    text-align: center;
+    padding-top: 14px; 
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(214, 54, 38);
+    text-decoration: none;
+    
+}
+.emtyBasket{
+    margin-left: 20%  ;
+    
+}
+
+
+@media (max-width: 768px) {
+    .basketNavDiv{
+        display: none;
+    }
+    .basketDiv{
+        width: 100%;
+    }
+    .spin{
+        padding-top: 100px;
+        width: 400px;
+        height: 400px;
+    }
+}

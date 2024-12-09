@@ -1,0 +1,225 @@
+.aUSection{
+    display: flex;
+    margin-top: 110px;
+    width: 100%;
+}
+.aUDIv{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+}
+.aUDIv h1{
+    width: 80%;
+    font-size: 45px;
+    font-weight: 600;
+    color: #000;
+    margin: 0 auto;
+}
+.aUDIv p{
+    width:80% ;
+    margin: 0 auto;
+    color:rgb(130, 130, 130);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5    ;
+
+}
+.aUDIv p span{
+    color: black;
+    font-weight: 900;
+}
+.backgroundImg{
+    position: relative;
+}
+.burgerDiv{
+    margin-top: -730px;
+        background-color: rgb(255, 255, 255);
+        margin-left: 250px;
+    z-index: 99;
+    width: 274px;
+    height: 174px;
+    border-radius: 25px;
+    position:absolute ;
+}
+.burgerDiv .burger{
+    margin-top: -80px;
+    margin-left: 110px;
+    position: relative;
+}
+.burgerDiv h1{
+width: 80%;
+margin: 0 auto;
+margin-top: 20px !important;
+font-weight: 600;
+font-size: 22px;
+}
+.burgerDiv p{
+    width: 80%;
+margin: 0 auto;
+margin-top: 20px !important;
+font-size: 20px;
+font-weight: rgb(79, 79, 79);
+}
+.pizzaDiv{
+    margin-top: -500px;
+    background-color: rgb(255, 255, 255);
+    /* margin-left: 150px; */
+    z-index: 99;
+    width: 274px;
+    height: 174px;
+    border-radius: 25px;
+    position:absolute ;
+    background-color: rgb(255, 255, 255);
+}
+.pizzaDiv h1{
+    width: 80%;
+margin: 0 auto;
+margin-top: 20px !important;
+font-weight: 600;
+font-size: 22px;
+}
+.pizzaDiv p{
+    width: 80%;
+margin: 0 auto;
+margin-top: 20px !important;
+font-size: 20px;
+font-weight: rgb(79, 79, 79);
+}
+.pizzaDiv .pizza{
+    margin-top: -80px;
+    margin-left: 110px;
+    position: relative;
+}
+.soupDiv{
+    margin-top: -400px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 320px;
+    z-index: 99;
+    width: 274px;
+    height: 174px;
+    border-radius: 25px;
+    position:absolute ;
+    background-color: rgb(255, 255, 255);
+}
+.soupDiv .soup{
+    margin-top: -80px;
+    margin-left: 110px;
+    position: relative;
+}
+.soupDiv h1{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px !important;
+    font-weight: 600;
+    font-size: 22px;
+}
+.soupDiv p{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px !important;
+    font-size: 20px;
+    font-weight: rgb(79, 79, 79);
+}
+.coffeeDiv{
+    margin-top: -200px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 40px;
+    z-index: 99;
+    width: 274px;
+    height: 174px;
+    border-radius: 25px;
+    position:absolute ;
+    background-color: rgb(255, 255, 255);
+}
+.coffeeDiv .coffee{
+    margin-top: -80px;
+    margin-left: 110px;
+    position: relative;
+}
+.coffeeDiv h1{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px !important;
+    font-weight: 600;
+    font-size: 22px;
+}
+.coffeeDiv p{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px !important;
+    font-size: 20px;
+    font-weight: rgb(79, 79, 79);
+}
+.coffeeDiv:hover {
+    transform: scale(0.90);
+}
+
+.burgerDiv:hover {
+    transform: scale(0.90);
+}
+
+.soupDiv:hover {
+    transform: scale(0.90);
+}
+.pizzaDiv:hover {
+    transform: scale(0.90);
+}
+.backgroundImg2{
+    display: none;
+}
+.spin {
+    padding: 50px;
+    margin: 0 auto;
+    margin-left: 30% !important;
+}
+
+@media (max-width:768px){
+    .aUSection{
+        flex-direction: column;
+        gap: 50px;
+    } 
+    .spin {
+        padding-top: 100px;
+        width: 400px;
+        height: 400px;
+        padding: 50px;
+        margin: 0 auto;
+        margin-left: 30px !important;
+    }
+
+    .backgroundImg{
+        display: none;
+    }
+    .backgroundImg2 {
+        display: block;
+        position: relative;
+        margin: 0 auto;
+    }
+    .pizzaDiv{
+        display: none;
+    }
+    .coffeeDiv{
+        display: none;
+    }
+    .aUDIv{
+        width: 100%;
+    }
+    .aUDIv p{
+        margin: 0 auto; /* Konteyneri ekranda mərkəzləşdirir */
+text-align: center;
+    }
+    .burgerDiv{
+        margin-top:-190px;
+        margin-left: 145px;
+        width: 220px;
+        height: 150px;
+    }
+    
+    .soupDiv{
+        margin-top: -400px;
+        margin-left: 145px;
+        width: 220px;
+        height: 150px;
+    }
+}

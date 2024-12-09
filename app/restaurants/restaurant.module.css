@@ -1,0 +1,232 @@
+.sectionRest{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+.divCategory{
+    
+    width: 251px;
+    background-color: rgb(243, 244, 246);
+    height: 898px;
+    margin-top: 20px;
+    margin-left: 24px;
+    overflow:auto;
+}
+.category{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    
+    gap: 30px;
+    cursor: pointer;
+
+}
+.category .categoryImg{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.category h1{
+    margin:  auto 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(51, 51, 51);
+}
+.restaurants{
+    cursor: pointer;
+    width: 235px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 41px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.restaurants:hover{
+    transform: scale(1.1)
+}
+.divRest{
+    overflow-y: auto    ;
+    display: flex;
+    flex-wrap: wrap;
+    gap:40px ;
+    width: 100%;
+}
+.restImg{
+display: flex;
+justify-content: center;
+
+}
+.imgDiv{
+    margin-top: 35px;
+    display: flex;
+justify-content: center;
+}
+.restaurants h1{
+    margin-top: 25px !important;
+    margin: 0 auto;
+    width: 80%;
+    font-size: 22px;
+    font-weight: 700;
+    color: (79, 79, 79);
+}
+.restaurants h2{
+    margin-top: 10px !important;
+    width: 80%;
+    height: 40px;
+    margin: 0 auto;
+font-size: 16px;
+font-weight: 400;
+color: rgb(130, 130, 130);
+}
+.infoRest{
+    width: 80%;
+    margin-top: 20px !important;
+    margin: 0 auto;
+    display: flex;
+   justify-content: space-between;
+
+}
+.infoRest p{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(79, 79, 79);
+    margin-top: 6px;
+}
+.spin {
+    padding: 50px;
+    margin: 0 auto;
+}
+.infoRest button{
+    width: 78px;
+    height: 32px;
+    background-color: rgb(214, 54, 38);
+    border: 1px solid rgb(214, 54, 38);
+    border-radius:20px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.allRest{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(214, 54, 38);
+    color: azure;
+    font-size: 20px;
+   
+    cursor: pointer;
+}
+.filterDiv{
+    display: none;
+}
+
+ @media(max-width:768px){
+    .filterDiv{
+        cursor: pointer;
+        margin-left: 20%;
+        margin-top: 35px !important;
+        display:flex ;
+        flex-direction: column;
+        gap: 10px;
+        align-items:center ;
+        background-color: aqua;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        box-shadow:0px 3px 8px -2px rgba(0, 0, 0, 0.2);
+    }
+    .spin{
+        padding-top: 100px;
+        width: 400px;
+        height: 400px;
+    }
+    .divCategory{
+        display: none;
+    }
+    .filterImg{
+        margin-top: 10px;
+    }
+    .sectionRest{
+        flex-direction: column;
+        margin-left: -100px;
+        gap: 30px;
+    }
+    .restaurants{
+        width: 181px;
+        height: 332px;
+    }
+    .divRest{
+        margin-left: 100px;
+        gap:20px;
+    }
+    .categoryFilter{
+        
+        border-radius: 10px;
+        margin-top: 210px;
+        background-color: white;
+        position: absolute;
+        z-index: 9999;
+        width: 100%;
+        margin-bottom: 1px solid black;
+        height: 480px;
+border-radius: 10px;
+    }
+
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.7); /* Kararma efekti */
+        z-index: 1000; /* Menünün altında, ama içeriğin üstünde */
+    
+      }
+    .allRest{
+        z-index: 9999;
+        width: 80%;
+        margin-left: 10%;
+        border-radius: 10px;
+    }
+    .cancelImg{
+        margin-left: 226px;
+cursor: pointer;
+    }
+    .category{
+        width: 80%;
+        margin-left: 10%;
+        border-bottom: 1px solid rgb(174, 167, 167);
+        
+    }
+    @keyframes slideUp {
+        from {
+            transform: translateY(100%); /* Alt kısımdan başlar */
+            opacity: 0; /* Şeffaflık başlangıcı */
+        }
+        to {
+            transform: translateY(0); /* Normal konumuna gelir */
+            opacity: 1; /* Görünür hale gelir */
+        }
+    }
+    
+    @keyframes slideDown {
+        from {
+            transform: translateY(0); /* Mevcut konumunda */
+            opacity: 1; /* Görünür halde */
+        }
+        to {
+            transform: translateY(100%); /* Aşağı kayarak kaybolur */
+            opacity: 0; /* Şeffaf hale gelir */
+        }
+    }
+    
+    .filterContent {
+        animation: slideUp 0.5s ease forwards; /* 0.5 saniyelik yukarı kayma animasyonu */
+    }
+    
+    .categoryFilter-exit .filterContent {
+        animation: slideDown 0.5s ease forwards; /* 0.5 saniyelik aşağı kayma animasyonu */
+    }
+    .divCategory{
+        background-color: white;
+    }
+    
+    
+ }

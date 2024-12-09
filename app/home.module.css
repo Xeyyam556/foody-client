@@ -1,0 +1,634 @@
+.sectionBegin {
+    width: 97%;
+    margin: 0 auto;
+    height: 738px;
+    background-color: rgb(243, 244, 246);
+    display: flex;
+
+}
+
+.open {
+    width: 45%;
+    margin-left: 30px;
+}
+
+.info {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.info h1 {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.info p {
+    width: 400px;
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(130, 130, 130);
+}
+
+.button {
+    display: flex;
+    gap: 30px;
+}
+
+.button button {
+    width: 181px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+
+
+.button button:nth-child(1) {
+    background-color: rgb(214, 54, 38);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(214, 54, 38);
+}
+
+.button button:nth-child(2) {
+    background-color: rgb(242, 242, 242);
+    border: 1px solid rgb(130, 130, 130);
+    color: rgb(130, 130, 130);
+}
+
+.burgerDiv {
+    width: 38%;
+    height: 480px;
+    background-color: black;
+    border-radius: 80px;
+    margin-top: 50px;
+}
+
+.burgerImg {
+    margin-top: -50px;
+    margin-left: -50px;
+    position: absolute;
+}
+
+.pizza {
+    position: relative;
+    animation: move-back-and-forth 4s ease-in-out infinite;
+
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 238px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+    position: relative;
+    height: 84px;
+    z-index: 999;
+    margin-left: 350px;
+    margin-top: -30px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+@keyframes move-back-and-forth {
+    0%, 100% {
+      left: 0;
+    }
+    50% {
+      left: 100px; /* Orta nokta */
+    }
+  }
+.pizza div {
+    /* margin: auto 0; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.fries {
+
+    position: relative;
+    animation: move-back-and-forth 4s ease-in-out infinite;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    width: 238px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+    position: relative;
+    height: 84px;
+    z-index: 999;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 252px;
+    margin-left: -90px;
+
+}
+
+.fries:hover {
+    transform: scale(0.90);
+}
+
+.miniBurger:hover {
+    transform: scale(0.90);
+}
+
+.pizza:hover {
+    transform: scale(0.90);
+}
+
+.fries div {
+    /* margin: auto 0; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.miniBurger {
+    position: relative;
+    animation: move-back-and-forth 4s ease-in-out infinite;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 238px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+    position: relative;
+    height: 84px;
+    z-index: 999;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 290px;
+    margin-top: 40px;
+}
+
+.fries {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.foodsSection {
+    height: auto;
+    margin-top: 100px;
+}
+
+.writing {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.writing h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(24, 22, 23);
+}
+
+.writing p {
+
+    width: 750px;
+    margin: 0 auto;
+    text-align: justify;
+    text-align-last: center;
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(130, 130, 130);
+}
+
+.food {
+    margin-top: 75px;
+    display: flex;
+    gap: 75px;
+    justify-content: space-around;
+}
+
+.DB,
+.FHF,
+.FHD {
+    width: 327px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 386px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.DB:hover {
+    transform: scale(0.9);
+}
+
+.FHF:hover {
+    transform: scale(0.9);
+}
+
+.FHD:hover {
+    transform: scale(0.9);
+}
+
+
+.foodImg {
+    margin-left: 50px;
+    height: 220px;
+}
+
+.DB h1 {
+    color: rgb(79, 79, 79);
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.DB p {
+    width: 273px;
+    margin: 0 auto;
+    text-align: justify;
+    text-align-last: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(130, 130, 130);
+    height: 105px;
+
+}
+
+.FHF h1 {
+    color: rgb(79, 79, 79);
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.FHF p {
+    width: 273px;
+    margin: 0 auto;
+    text-align: justify;
+    text-align-last: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(130, 130, 130);
+    height: 105px;
+}
+
+.FHD h1 {
+    color: rgb(79, 79, 79);
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.FHD p {
+    width: 273px;
+    margin: 0 auto;
+    text-align: justify;
+    text-align-last: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(130, 130, 130);
+    height: 105px;
+
+}
+
+.popularFoodSection {
+    height: auto;
+    margin-top: 100px;
+
+}
+
+.popFoodsWriting {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.popFoodsWriting h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(24, 22, 23);
+}
+
+.popFoodsWriting p {
+    width: 750px;
+    margin: 0 auto;
+    text-align: justify;
+    text-align-last: center;
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(130, 130, 130);
+}
+
+.popFoods {
+    margin-top: 75px;
+    display: flex;
+    gap: 75px;
+    justify-content: space-around;
+}
+
+.cheeseBurger,
+.margarita,
+.twister {
+
+    width: 327px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 386px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.cheeseBurger:hover {
+    transform: scale(0.90)
+}
+
+.margarita:hover {
+    transform: scale(0.90)
+}
+
+.twister:hover {
+    transform: scale(0.90)
+}
+
+.popFoodImg {
+    margin-left: 30px;
+    height: 220px;
+
+}
+
+.cheeseBurger h1 {
+    color: rgb(79, 79, 79);
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.cheeseBurger p {
+    width: 273px;
+    margin: 0 auto;
+    text-align: justify;
+    text-align-last: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(130, 130, 130);
+    height: 105px;
+
+}
+
+.margarita h1 {
+    color: rgb(79, 79, 79);
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.margarita p {
+    width: 273px;
+    margin: 0 auto;
+    text-align: justify;
+    text-align-last: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(130, 130, 130);
+    height: 105px;
+}
+
+.twister h1 {
+    color: rgb(79, 79, 79);
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.twister p {
+    width: 273px;
+    margin: 0 auto;
+    text-align: justify;
+    text-align-last: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(130, 130, 130);
+    height: 105px;
+}
+
+/* }
+.offersSection{
+    margin-top: 280px;
+}
+.offersDiv{
+    display: flex;
+justify-content:space-around ;
+}
+.offerText{
+    width: 653px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.offerText h1{
+
+    width: 500px;
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(24, 22, 23);
+}
+.offerText p{
+    width: 450px;
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(130, 130, 130);
+} */
+.offersSection {
+    margin-top: 280px;
+}
+.offersSection h1{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.offerDiv {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 100px;
+    flex-wrap: wrap; /* Sıxışdıqda elementlərin alt-alta düşməsi üçün */
+    max-width: 1200px; /* Divin maksimum genişliyi */
+}
+
+
+.offerInfo {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.offerInfo h2 {
+    font-size: 35px;
+}
+
+.offerInfo p {
+    font-size: 25px;
+    color: #828282;
+    overflow-wrap: break-word; /* Uzun sözləri kəsmək üçün */
+    word-wrap: break-word;     /* Uzun sözlərin sətir dəyişməsi üçün */
+    word-break: break-word;    /* Div-dən çıxmaması üçün */
+}
+
+.leftImg {
+    position: absolute;
+    border-radius: 20px;
+}
+
+.offerImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.imggg {
+    position: absolute;
+    margin-top: -80px;
+    margin-left: -30px;
+}
+
+.imgg {
+    position: relative;
+}
+
+.discoverRest {
+    background-color: #272727;
+    border-radius: 25px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: relative;
+    z-index: 4;
+    padding: 30px;
+    bottom: -90px;
+}
+
+.discoverRest div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.discoverRest h2 {
+    font-size: 40px;
+    width: 80%;
+    text-align: center;
+    color: #FFF;
+
+}
+
+.discoverRest button {
+    background-color: #FB9300;
+    border-radius: 30px;
+    padding: 15px;
+    color: #fff;
+    border: 1px solid #FB9300;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.discoverRest button:hover {
+    background-color: #c27407;
+
+}
+.spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; /* Tüm ekranı kaplar */
+    padding: 50px;
+    margin: 0 auto;
+}
+
+
+@media(max-width:768px) {
+    .burgerDiv {
+        background-color: rgb(243, 244, 246);
+    }
+
+    .spinner{
+        padding-top: 100px;
+        width: 400px;
+        height:400px;
+    }
+    .sectionBegin{
+        display: flex;
+        flex-direction: column;
+        height:830px ;
+    }
+    .info{
+        width: 400px;
+        margin-top: 30px;
+    }
+    .open{
+        width: 94%;
+    }
+    .burgerImg{
+        width: 400px;
+        height: 400px;
+        margin-left: 50px;
+    }
+    .miniBurger{
+        display: none;
+    }
+    .fries{
+        display: none;
+    }
+    .pizza{
+        margin-left: 140px;
+        margin-top: 100px;
+    }
+    .foodsSection{
+        width: 485px;
+        
+    }
+    .writing p{
+        width: 100%;
+        line-height: 40px;
+        text-align: justify;
+       
+    }
+    .food{
+        flex-direction: column;
+        align-items: center;
+    }
+    .offerDiv{
+        flex-direction: column !important;
+        gap: 50px;
+    }
+    .popularFoodSection{
+        width: 485px;
+    }
+    .popFoodsWriting p{
+        width: 100%;
+        line-height: 40px;
+        text-align: justify;
+    }
+    .popFoods{
+        flex-direction: column;
+        align-items: center;
+    }
+    .lastImg{
+        display: none;
+    }
+}

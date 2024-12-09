@@ -1,0 +1,134 @@
+.headDiv{
+    width: 95%;
+    height: 122px;
+    background-color: rgb(235, 87, 87);
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.headDiv h1{
+    font-size: 36px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    padding-top: 30px;
+    cursor: pointer;
+    margin-left: 36px;
+}
+.imageDiv{
+    width: 40%;
+    height: 901px;
+    background-color: rgb(235, 87, 87);
+    margin-left: 40px;
+}
+.mainDiv{
+    margin-top: 20px;
+    display: flex;
+}
+.loginDiv{
+    width: 55%;
+    height: 901px;
+    margin-top: 59px;
+}
+.loginWriting{
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+.loginWriting a{
+    font-size: 30px;
+    font-weight: 500;
+cursor: pointer;
+}
+.login{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.register{
+    display: flex;
+    flex-direction: column;
+}
+.login input{
+    font-size: 30px;
+    width: 80%;
+    margin: 0 auto;
+    height: 68px;
+    background-color: rgb(255, 231, 231);
+    border: 1px solid rgb(255, 231, 231);
+}
+.login label{
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+     font-size: 20px;
+    color: rgb(79, 79, 79);
+    margin-left: 90px;
+}
+.registerBtn{
+    width: 80%;
+  ;
+    margin: 0 auto;
+    height: 68px;
+    background-color: rgb(235, 87, 87);
+    font-size: 22px;
+    border: 1px solid rgb(235, 87, 87);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px
+}
+.alert {
+    position: fixed;
+    top: 20px; 
+    right: 20px;
+    padding: 15px;
+    background-color: #f44336; 
+    color: white; 
+    border-radius: 5px;
+    z-index: 1000; 
+    transition: opacity 0.5s ease; 
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.alert-error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+@media (max-width:768px){
+    .headDiv{
+        height: 100px;
+        width: 100%;
+        margin: 0;
+    }
+    .imageDiv{
+        width: 95%;
+        margin-left: 12px;
+        height: 200px;
+    }
+    .mainDiv{
+        flex-direction: column;
+    }
+    .loginDiv{
+        width: 100%;
+    }
+    .loginImgg{
+        width: 200px;
+        height: 200px;
+    }
+}

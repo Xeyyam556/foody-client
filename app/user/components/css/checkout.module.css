@@ -1,0 +1,397 @@
+.profilSection {
+    display: flex;
+    gap: 20px;
+    width: 97%;
+    height: 1000px;
+    margin: 0 auto;
+    margin-top: 20px !important;
+}
+
+.profileNavDiv {
+    width: 30%;
+    height: 515px;
+    background-color: rgb(243, 244, 246);
+    display: flex;
+    flex-direction: column;
+}
+
+.profileNavDiv nav ul li {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    gap: 40px;
+
+}
+
+.mainLink {
+    cursor: pointer;
+    background-color: rgb(246, 146, 137);
+    width: 70%;
+    border: 1px solid rgb(246, 146, 137);
+    height: 56px;
+    margin: 0 auto;
+    margin-left: 15%;
+    text-align: start;
+    border-radius: 5px;
+}
+
+.mainBtn {
+    font-size: 20px;
+    color: rgb(214, 54, 38);
+    font-weight: 600;
+    border: 1px solid rgb(246, 146, 137);
+    background-color: rgb(246, 146, 137);
+    margin-top: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+
+
+}
+
+.image {
+    margin-left: 10px;
+}
+
+.otherLink {
+    cursor: pointer;
+    width: 70%;
+    height: 56px;
+    margin: 0 auto;
+    margin-left: 15%;
+    text-align: start;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(130, 130, 130);
+}
+
+.otherBtn {
+    font-size: 20px;
+    color: rgb(130, 130, 130);
+    border: 1px solid rgb(243, 244, 246);
+    font-weight: 600;
+    margin-top: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+
+.logoutBtn {
+    cursor: pointer;
+    width: 70%;
+    margin: 0 auto;
+    height: 56px;
+    font-size: 20px;
+    color: rgb(130, 130, 130);
+    background-color: rgb(243, 244, 246);
+    border: 1px solid rgb(243, 244, 246);
+    font-weight: 600;
+    margin-top: 15px;
+    padding-left: 10px;
+    margin-left: 15%;
+    text-align: start;
+    border-radius: 5px;
+}
+
+.paymentContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+}
+.paymentDiv{
+    margin-top: 30px !important;
+    width: 87%;
+    margin: 0 auto;
+
+}
+.paymentTitle {
+    margin-top: 100px, !important;
+   color: rgb(79, 79, 79);
+   font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.optionContainer {
+    margin-top: 25px;
+    display: flex;
+    gap: 20px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+}
+
+.radioInput {
+    display: none;
+    /* Radio düyməsini gizlədir */
+}
+
+.customRadio {
+    width: 16px;
+    height: 16px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+}
+
+.selected .customRadio {
+    border-color: #4CAF50;
+    background-color: #4CAF50;
+}
+
+.selected .customRadio::after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.option:hover .customRadio {
+    border-color: #999;
+}
+
+.checkoutDiv {
+    width: 69%;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.checkout {
+    width: 60%;
+    height: 550px;
+    background-color: rgb(243, 244, 246);
+}
+
+.checkout h1 {
+    padding-top: 41px;
+    width: 87%;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(79, 79, 79);
+}
+
+
+.inputs {
+    font-size: 20px;
+    width: 87%;
+    margin-top: 10px;
+    height: 53px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.checkout .labels {
+    margin-top: 200px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(79, 79, 79);
+
+}
+
+.form {
+    margin-top: 30px !important;
+    width: 88%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.checkoutBtn{
+    cursor: pointer;
+    width: 87%;
+    height: 53px;
+    background-color: rgb(111, 207, 151);
+    border: 1px solid rgb(111, 207, 151);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.orderDiv{
+    width: 39%;
+    height: 372px;
+    background-color: rgb(243, 244, 246);
+}
+.orderDiv h1{
+    margin-top: 20px !important;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(130, 130, 130);
+}
+.basketDiv{
+    margin-top: 30px !important;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 20px;
+    overflow-y: auto;
+
+}
+.success{
+    margin-left: 45px;
+    background-color: rgb(111, 207, 151);
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+ 
+}
+.spin{ padding: 50px;
+    margin: 0 auto;
+    margin-left: 30% !important;}
+.succesDiv{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 600px;
+    text-align: justify;
+
+}
+.succesDiv h1{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 500;
+
+    text-align: justify;
+}
+/* checkout.module.css */
+.radioInput:checked + .customRadio {
+    background-color: #333; /* Qaraltma effekti üçün rəng */
+    border-color: #333;
+}
+
+.basketDiv2{
+    height: 250px;
+    overflow-y: auto;
+}
+.productDiv{
+    display: flex;
+    gap: 10px;
+    
+}
+.productDiv h2{
+ width: 300px;
+ color: rgb(130, 130, 130);
+ font-weight: 400;
+}
+.productDiv p{
+    color: rgb(130, 130, 130);
+}
+.productDiv h3{
+    color: rgb(130, 130, 130);
+
+}
+.basketDiv::-webkit-scrollbar {
+    width: 2px; /* Scroll bar genişliği */
+    height: 1px;
+  }
+  .basketDiv::-webkit-scrollbar-track {
+    background: white; /* Scroll bar arka plan rengi */
+  }
+  
+  .basketDiv::-webkit-scrollbar-thumb {
+    background-color: red; /* Scroll bar rengi */
+    border-radius: 4px; /* Scroll barın kenarları yuvarlatmak için */
+  }
+  
+  .basketDiv::-webkit-scrollbar-thumb:hover {
+    background:red; /* Hover durumunda scroll bar rengi */
+  }
+  .totalDiv{
+    margin-top: 40px !important;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    gap: 280px;
+  }
+  .totalDiv h4{
+    color: rgb(130, 130, 130);
+    font-size: 18px;
+  }
+  .totalDiv p{
+    color: rgb(130, 130, 130);
+    font-size: 18px;
+  }
+  .hr{
+    width: 90%;
+    margin: 0 auto;
+    color: rgb(224, 224, 224);
+  }
+  .checkoutBtn2{
+    display: none;
+    cursor: pointer;
+    width: 87%;
+    height: 53px;
+    background-color: rgb(111, 207, 151);
+    border: 1px solid rgb(111, 207, 151);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 50px;
+  }
+  .emtyBasket{
+    margin-left: 80px;
+  }
+  @media (max-width: 768px) {
+    .profileNavDiv{
+        display: none;
+    }
+    .checkoutDiv{
+        flex-direction: column;
+        
+    }
+    .orderDiv{
+        
+        width: 100%;
+        position: relative;
+        top: 30px; /* Header'dan 30px aşağı */
+        background-color: rgb(243, 244, 246); /* Orijinal rengini geri döndürmek için */
+    }
+    .spin{
+        padding-top: 100px;
+        width: 400px;
+        height: 400px;
+    }
+    .checkoutBtn2{
+        display:block;
+        margin: 0 auto;
+        margin-top: 80px;
+      }
+      .checkoutBtn{
+        display: none;
+      }
+      .checkoutDiv{
+        width: 100%;
+      }
+      .form{
+        width: 100%;
+      }
+      .checkout{
+        width: 100%;
+      }
+      .inputs{
+        margin-left: 5%;
+      }
+      .labels{
+        margin-left: 5%;
+      }
+}

@@ -1,0 +1,10 @@
+.div{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    margin: 20px;
+    padding: 20px;
+}

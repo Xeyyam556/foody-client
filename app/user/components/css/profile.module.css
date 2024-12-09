@@ -1,0 +1,204 @@
+.profilSection{
+ 
+    display: flex;
+    gap: 20px;
+    width: 97%;
+    height: 1000px;
+    margin: 0 auto;
+    margin-top: 20px !important;
+}
+.profileNavDiv{
+    width: 30%;
+    height: 515px;
+    background-color: rgb(243, 244, 246);
+    display: flex;
+    flex-direction: column;
+}
+.profileNavDiv nav ul li {
+    display: flex;
+    flex-direction: column;
+    margin-top:45px ;
+    gap: 40px;
+
+}
+.mainLink{
+    cursor: pointer;
+    background-color: rgb(246, 146, 137);
+    width: 70%;
+    border: 1px solid rgb(246, 146, 137) ;
+    height: 56px;
+    margin:0 auto;
+    margin-left: 15%;
+    text-align: start;
+    border-radius: 5px;
+}
+.mainBtn{
+    font-size: 20px;
+    color: rgb(214, 54, 38);
+    font-weight: 600;
+    border: 1px solid rgb(246, 146, 137) ;
+    background-color: rgb(246, 146, 137);
+    margin-top: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+
+
+}
+.image{
+    margin-left: 10px;
+}
+.otherLink{
+    cursor: pointer;
+    width: 70%;
+    height: 56px;
+    margin:0 auto;
+    margin-left: 15%;
+    text-align: start;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(130, 130, 130);
+}
+.otherBtn{
+    font-size: 20px;
+    color: rgb(130, 130, 130);
+    border: 1px solid rgb(243, 244, 246);
+    font-weight: 600;
+    margin-top: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+.logoutBtn{
+    cursor: pointer;
+    width: 70%;
+    margin: 0 auto;
+    height: 56px;
+    font-size: 20px;
+    color: rgb(130, 130, 130);
+    background-color: rgb(243, 244, 246);
+    border: 1px solid rgb(243, 244, 246);
+    font-weight: 600;
+    margin-top: 15px;
+    padding-left: 10px;
+    margin-left: 15%;
+    text-align: start;
+    border-radius: 5px;
+}
+.profilDiv{
+    width: 69%;
+}
+.profileUpload {
+    
+   width: 100%;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color:rgb(243, 244, 246);
+    padding: 20px;
+  }
+  
+  .uploadIcon {
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:white;
+    padding: 20px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .uploadIcon:hover {
+    background-color: #b2ebf2; /* Hover effect */
+  }
+  
+  .imagePreview {
+    margin-left: 600px;
+    margin-top: -140px;
+  }
+  
+  .imagePreview Image {
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .profileUpload h1{
+    text-align: start;
+    width: 100%;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(79, 79, 79);
+  }
+  .formDiv{
+    width: 100%;
+    background-color: rgb(243, 244, 246);
+    height: 400px;
+  }
+  .form{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 52px;
+    
+
+  }
+  .form label{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(79, 79, 79);
+
+  }
+  .spin{ padding: 50px;
+    margin: 0 auto;
+    margin-left: 30% !important;}
+  .form input{
+    font-size: 25px;
+    width: 420px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid rgb(243, 244, 246);
+  }
+  .form button {
+    cursor: pointer;
+    width: 420px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgb(111, 207, 151);
+    border: 1px solid rgb(111, 207, 151);
+    color: white;
+    margin-top: 19px;
+    font-size: 30px;
+  }
+  @media (max-width: 768px) {
+    .profileNavDiv{
+        display: none;
+    }
+    .spin{
+      padding-top: 100px;
+      width: 400px;
+      height: 400px;
+  }
+    
+    .profilDiv{
+      width: 100%;
+  }
+  .inputs{
+    background-color: rgb(243, 244, 246);
+  }
+  .formDiv{
+    background-color: white;
+  }
+  .uploadIcon{
+    background-color: rgb(243, 244, 246);
+  }
+  .profileUpload{
+    background-color: white;
+  }
+  
+}

@@ -1,0 +1,385 @@
+.divAboutRest {
+    display: flex;
+    justify-content: center;
+    /* Yatayda mərkəzləşdirir */
+    align-items: center;
+    /* Dikeydə mərkəzləşdirir */
+}
+
+.restImg {
+
+    width: 40%;
+    height: 300px;
+}
+
+.restDiv {
+
+    margin: 0 auto;
+    margin-top: 70px !important;
+    width: 88%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nameAndAdrrss {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nameAndAdrrss h1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(79, 79, 79);
+}
+
+.nameAndAdrrss p {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(130, 130, 130);
+}
+
+.cuisine {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cuisine h1 {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(130, 130, 130);
+}
+
+.cuisine p {
+    font-size: 14px;
+    color: rgb(130, 130, 130);
+}
+
+.restBtn {
+    display: flex;
+    gap: 25px;
+}
+
+.restBtn :nth-child(1) {
+    width: 72px;
+    height: 41px;
+    background-color: white;
+    color: rgb(214, 54, 38);
+    border: 1px solid rgb(214, 54, 38);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.restBtn :nth-child(2) {
+    cursor: pointer;
+    width: 72px;
+    height: 41px;
+    background-color: rgb(214, 54, 38);
+    color: white;
+    border: 1px solid rgb(214, 54, 38);
+    font-size: 14px
+}
+
+.basketSection {
+    margin-top: 60px;
+    display: flex;
+    gap: 50px;
+}
+
+.productDiv {
+    width: 56%;
+    margin-left: 130px;
+    height: 961px;
+    overflow-y: auto;
+    background-color: rgb(243, 244, 246);
+}
+
+.productDiv .product {
+    color: rgb(79, 79, 79);
+    width: 100%;
+    height: 130px;
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid rgb(224, 224, 224);
+}
+
+.productss {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 40px;
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid rgb(224, 224, 224);
+}
+
+.productImg {
+    margin-left: 40px;
+    margin-top: 16px;
+}
+
+.aboutProduct {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.aboutProduct h1 {
+    overflow-y: auto;
+}
+
+.aboutProduct p {
+    overflow-y: auto;
+}
+
+.aboutProduct h1::-webkit-scrollbar {
+    height: 4px;
+    /* Scroll bar genişliği */
+}
+
+.aboutProduct h1::-webkit-scrollbar-track {
+    background: rgb(67, 68, 90);
+    /* Scroll bar arka plan rengi */
+}
+
+.aboutProduct h1::-webkit-scrollbar-thumb {
+    background-color: rgb(192, 53, 162);
+    /* Scroll bar rengi */
+    border-radius: 4px;
+    /* Scroll barın kenarları yuvarlatmak için */
+}
+
+.aboutProduct h1::-webkit-scrollbar-thumb:hover {
+    background: rgb(192, 53, 162);
+    /* Hover durumunda scroll bar rengi */
+}
+
+.aboutProduct p::-webkit-scrollbar {
+    height: 4px;
+    /* Scroll bar genişliği */
+}
+
+.aboutProduct p::-webkit-scrollbar-track {
+    /* background: rgb(67, 68, 90); */
+    /* Scroll bar arka plan rengi */
+}
+
+.aboutProduct p::-webkit-scrollbar-thumb {
+    /* background-color: rgb(192, 53, 162); */
+    /* Scroll bar rengi */
+    border-radius: 1px;
+    /* Scroll barın kenarları yuvarlatmak için */
+}
+
+.aboutProduct p::-webkit-scrollbar-thumb:hover {
+    background: rgb(192, 53, 162);
+    /* Hover durumunda scroll bar rengi */
+}
+
+.price {
+    width: 100px;
+    margin: auto 0;
+}
+
+.buy {
+    
+    margin: auto 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    color: rgb(189, 189, 189);
+    cursor: pointer;
+    border: 1px solid rgb(189, 189, 189);
+}
+.buy:hover{
+    background-color: rgb(111, 207, 151);
+    color: white;
+    border: 1px solid rgb(111, 207, 151);
+}
+.basketDiv{
+ background-color: rgb(243, 244, 246);
+ width: 27%;
+ height: 550px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between; /* Əsas elementləri yayır */
+}
+.productsInBasket{
+    display: flex;
+}
+.items{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    border-bottom: 2px solid rgb(224, 224, 224);
+}
+.items h2{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(214, 54, 38);
+}
+.productsİnBasket{
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid rgb(224, 224, 224);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.imgg{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.aboutProduct h1{
+    overflow-y: auto;
+    width: 200px;
+    font-size: 16px;
+    color: rgb(79, 79, 79);
+}
+.aboutProduct p{
+   
+    font-size: 14px;
+    color: rgb(79, 79, 79);
+}
+.increaseDiv{
+    background-color: #FFF;
+    border-radius: 20px;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.increaseDiv button{
+    border: none;
+    font-size: 20px;
+    background-color: #FFF;
+    cursor: pointer;
+}
+.increaseDiv p{
+    font-size: 20px;
+}
+.otherLink{
+    cursor: pointer;
+    width: 70%;
+    height: 56px;
+    margin:0 auto;
+    margin-left: 15%;
+    text-align: start;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(130, 130, 130);
+}
+.delete{
+    margin-top: 20px;
+        cursor: pointer;
+}
+.spin{
+    padding: 50px;
+    margin: 0 auto;
+    margin-left: 30% !important;
+}
+.checkout{
+text-decoration:none;
+    width:90%;
+    height: 50px;
+    background-color: rgb(214, 54, 38);
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto; /* Checkout divini ən aşağıya qoyur */
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+}
+  
+.checkout h1{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.checkout p{
+    font-size: 20px;
+    width: 135px;
+    height: 47px;
+    text-align: center;
+    padding-top: 14px;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(214, 54, 38);
+}
+.basketItem {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    justify-content: space-between; /* Space between elements */
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Optional: For separating each item */
+}
+
+.aboutProduct {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.increaseDiv {
+    display: flex;
+    align-items: center;
+}
+
+.basketItem img {
+    margin-right: 10px; /* Space between image and text */
+}
+
+.delete {
+    margin-left: 20px; /* Space between buttons and delete icon */
+}
+.emptyBasket{
+    margin: 0 auto;
+}
+.oops{
+    margin-top: 10px !important;
+    width: 235px;
+    margin: 0 auto;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(189, 189, 189);
+}
+.basketDiv{
+    justify-content: center;
+}
+@media (max-width: 768px) {
+    .restImg{
+        width: 350px;
+    }
+    .restDiv{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    .restBtn{
+        justify-content: center;
+    }
+    .basketDiv{
+        display: none;
+    }
+    .productDiv{
+        width: 90%;
+        margin: 0 auto;
+        
+    }
+    .aboutProduct{
+        width: 140px;
+    }
+    .productss{
+        gap: 10px;
+    }
+}

@@ -1,0 +1,262 @@
+.ordersSection{
+
+    width: 97%;
+    height: 1000px;
+    margin: 0 auto;
+    margin-top: 20px !important;
+}
+.profileNavDiv{
+    width: 30%;
+    height: 515px;
+    background-color: rgb(243, 244, 246);
+    display: flex;
+    flex-direction: column;
+}
+.profileNavDiv nav ul li {
+    display: flex;
+    flex-direction: column;
+    margin-top:45px ;
+    gap: 40px;
+
+}
+.mainLink{
+    cursor: pointer;
+    background-color: rgb(246, 146, 137);
+    width: 70%;
+    border: 1px solid rgb(246, 146, 137) ;
+    height: 56px;
+    margin:0 auto;
+    margin-left: 15%;
+    text-align: start;
+    border-radius: 5px;
+}
+.mainBtn{
+    font-size: 20px;
+    color: rgb(214, 54, 38);
+    font-weight: 600;
+    border: 1px solid rgb(246, 146, 137) ;
+    background-color: rgb(246, 146, 137);
+    margin-top: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+
+
+}
+.image{
+    margin-top: 2px;
+    margin-left: 10px;
+}
+.otherLink{
+    cursor: pointer;
+    width: 70%;
+    height: 56px;
+    margin:0 auto;
+    margin-left: 15%;
+    text-align: start;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(130, 130, 130);
+}
+.otherBtn{
+    font-size: 20px;
+    color: rgb(130, 130, 130);
+    border: 1px solid rgb(243, 244, 246);
+    font-weight: 600;
+    margin-top: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+.logoutBtn{
+    cursor: pointer;
+    width: 70%;
+    margin: 0 auto;
+    height: 56px;
+    font-size: 20px;
+    color: rgb(130, 130, 130);
+    background-color: rgb(243, 244, 246);
+    border: 1px solid rgb(243, 244, 246);
+    font-weight: 600;
+    margin-top: 15px;
+    padding-left: 10px;
+    margin-left: 15%;
+    text-align: start;
+    border-radius: 5px;
+}
+.ordersSection{
+    display: flex;
+}
+.ordersDiv{
+    width:69%;
+    margin-left: 20px;
+    height: 635px;
+    background-color: rgb(243, 244, 246);
+}
+.countainerDiv{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.countainerDiv h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(79, 79, 79);
+}
+.tableWrapper {
+  height: 500px;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.ordersTable {
+  overflow-y: auto;
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
+
+.tableHeader {
+  background-color: #f4f6f8;
+}
+
+.headerRow {
+  border-bottom: 2px solid #ddd;
+}
+
+.headerCell {
+  padding: 12px;
+  text-align: left;
+  font-weight: bold;
+  border-right: 1px solid #ddd;
+}
+
+.headerCell:last-child {
+  border-right: none;
+}
+
+.tableBody {
+  background-color: #ffffff;
+}
+
+.bodyRow {
+  border-bottom: 1px solid #ddd;
+}
+
+.bodyCell {
+  padding: 16px; /* Increased padding for more spacing */
+  text-align: left;
+  border-right: 1px solid #ddd;
+}
+
+.bodyCell:last-child {
+  border-right: none;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.spin{ padding: 50px;
+  margin: 0 auto;
+  margin-left: 100% !important;}
+.show {
+  color: #007bff;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid white;
+}
+
+.delete {
+  background-color: white;
+  border: 1px solid white;
+  color: red;
+  cursor: pointer;
+}
+.showProductDiv{
+  width: 400px;
+  height:100px;
+  overflow-y: auto;
+  background-color: white;
+  z-index: 999999;
+  position: absolute;
+  margin-left: 700px;
+  margin-top: 200px;
+}
+.table{
+  width: 100%;;
+
+}
+.th{
+  border-right: 1px solid rgb(144, 140, 140);
+  border-bottom: 1px solid rgb(144, 140, 140);
+}
+.td{
+  width: 25%;
+  border-bottom: 1px solid rgb(144, 140, 140) ;
+  border-right: 1px solid rgb(144, 140, 140);
+
+}
+.Img{
+  border-right: 1px solid rgb(144, 140, 140);
+}
+.backFont{
+  left: 0;
+  top:0;
+  width: 100%;
+  height:1000px;
+  background-color: black;
+  z-index: 111;
+  opacity: 0.5;
+  position:absolute;
+}
+.showProductDiv::-webkit-scrollbar {
+  width: 4px; /* Scroll bar genişliği */
+  height: 4px;
+}
+.showProductDiv::-webkit-scrollbar-track {
+  background: white; /* Scroll bar arka plan rengi */
+}
+
+.showProductDiv::-webkit-scrollbar-thumb {
+  background-color: orange; /* Scroll bar rengi */
+  border-radius: 4px; /* Scroll barın kenarları yuvarlatmak için */
+}
+
+.showProductDiv::-webkit-scrollbar-thumb:hover {
+  background: rgb(192, 53, 162); /* Hover durumunda scroll bar rengi */
+}
+.tableWrapper::-webkit-scrollbar {
+  width: 4px; /* Scroll bar genişliği */
+  height: 4px;
+}
+.tableWrapper::-webkit-scrollbar-track {
+  background: white; /* Scroll bar arka plan rengi */
+}
+
+.tableWrapper::-webkit-scrollbar-thumb {
+  background-color: orange; /* Scroll bar rengi */
+  border-radius: 4px; /* Scroll barın kenarları yuvarlatmak için */
+}
+
+.tableWrapper::-webkit-scrollbar-thumb:hover {
+  background: rgb(192, 53, 162); /* Hover durumunda scroll bar rengi */
+}
+@media (max-width: 768px) {
+  .profileNavDiv{
+      display: none;
+  }
+  .ordersDiv{
+    width: 100%;
+    margin-left: 0px;
+    background-color: white;
+
+  }
+  .spin{
+    padding-top: 100px;
+    width: 400px;
+    height: 400px;
+}
+}
